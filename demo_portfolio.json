@@ -1,0 +1,144 @@
+{
+    "Deals": [
+        {
+            "AccountCode": "Z12034",
+            "AccountName": "Random Ins Company US",
+            "Analyst": "rithika",
+            "BasicId": 123456,
+            "CompoundRiskID": "REMS_123456:6651743",
+            "Covers": [
+                {
+                    "AggOccMode": "OCC",
+                    "BusinessSegment": "cat",
+                    "CoverId": 1000447698,
+                    "CoverNumber": 32,
+                    "CoverType": "Layer",
+                    "Currency": "USD",
+                    "EffectiveLimit": 999999999000.0,
+                    "EventCount": 1,
+                    "EventTypeId": "A1",
+                    "ExpirationDate": "2024-05-31",
+                    "InceptionDate": "2023-06-01",
+                    "Inputs": {
+                        "ExposureEdges": [
+                            {
+                                "ExposureGroup": "A",
+                                "Weight": -1.0
+                            },
+                            {
+                                "ExposureGroup": "B",
+                                "Weight": -1.0
+                            }
+                        ]
+                    },
+                    "Name": "Inuring Layer",
+                    "OffRiskDate": "2024-05-31",
+                    "PatternSets": [
+                        {
+                            "IsLive": true,
+                            "Name": "US Prop Tty XS - Nationwide Cat (default)",
+                            "PatternSetId": 104,
+                            "RiskClassName": "Property Cat US",
+                            "RiskSubClassName": "Property Cat US",
+                            "Weight": 1.0
+                        }
+                    ],
+                    "PercentLimit": 1.0,
+                    "Premiums": [
+                        {
+                            "Currency": "USD",
+                            "EstimatedPremium": 0.0,
+                            "PremiumId": 500462,
+                            "PremiumRate": 0.0,
+                            "PremiumType": "FixedRate",
+                            "SubjectType": "Premium"
+                        }
+                    ],
+                    "Reinstatements": [
+                        {
+                            "NumberOfReinstatements": 0.0,
+                            "ReinstatementPercent": 0.0,
+                            "ReinstatementType": "Direct"
+                        }
+                    ],
+                    "RiskCategoryCode": "4",
+                    "RiskClaimBasisCode": "LOD",
+                    "RiskClassCode": "PCAT_US",
+                    "RiskId": "REMS_123456_32",
+                    "RiskTypeCode": "AGG",
+                    "SubClassCode": 127,
+                    "Tags": [
+                    ],
+                    "Terms": [
+                        {
+                            "GroupPriority": 0,
+                            "TermId": 1485394,
+                            "TermType": "OccurrenceRetention",
+                            "OccurrenceRetention": 10000000.0
+                        },
+                        {
+                            "GroupPriority": 1,
+                            "TermId": 1485395,
+                            "TermType": "OccurrenceLimit",
+                            "OccurrenceLimit": 999999000.0
+                        }
+                    ]
+                }
+            ],
+            "Currencies": [
+                {
+                    "Currency": "USD",
+                    "ExchangeDate": "2010-04-28T11:50:48.88",
+                    "ExchangeRate": 1.0
+                }
+            ],
+            "Dependencies": [
+                {
+                    "CoverNumber": 32,
+                    "Inputs": [
+                        {
+                            "RelationshipType": "external",
+                            "RiskId": "123456_Base22_008_MS23",
+                            "RiskType": "exposure",
+                            "RiskVersion": 6226244,
+                            "Weight": -1.0
+                        }
+                    ],
+                    "RiskId": "REMS_123456_32"
+                }
+            ],
+            "Description": "(ALL) PG&E - Inuring Utility Structure",
+            "ExposureBasicId": 123456,
+            "ExposureSummary": [
+                {
+                    "Format": "ms",
+                    "Group": "A",
+                    "SubModel": "Flasher"
+                }
+            ],
+            "InuringAllocationMode": "Explicit Exposure Group",
+            "InuringPreventNegativeLosses": true,
+            "IsCeded": false,
+            "IsDeleted": false,
+            "IsSwap": false,
+            "RiskSetId": "REMS_123456",
+            "RiskSource": "REMS",
+            "RootBasicId": 256051,
+            "Source": "Live",
+            "TerritoryCode": "*USCN",
+            "TypeCode": "AGG",
+            "Underwriter": "rithika",
+            "UnderwritingYear": 2024,
+            "Validation": {
+                "Errors": [
+                ],
+                "IsValid": true
+            },
+            "Version": 6651743
+        }
+    ],
+    "ExtractDate": "2023-11-21T10:06:12.173479",
+    "InputRiskIds": null,
+    "Inuring": {
+    }
+}
